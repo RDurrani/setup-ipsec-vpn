@@ -74,6 +74,7 @@ To install the VPN, please choose one of the following options:
 
 ```bash
 wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
+now https://raw.githubusercontent.com/rdurrani/setup-ipsec-vpn/master/vpnsetup.sh
 ```
 
 **Option 2:** Edit the script and provide your own VPN credentials:
@@ -105,7 +106,7 @@ DigitalOcean users may refer to this <a href="https://usefulpcguide.com/17318/cr
 First, update your system with `yum update` and reboot. This is optional, but recommended.
 
 Follow the same steps as above, but replace `https://git.io/vpnsetup` with `https://git.io/vpnsetup-centos`.
-
+now 'https://raw.githubusercontent.com/rdurrani/setup-ipsec-vpn/master/vpnsetup-centos.sh'
 ## Next steps
 
 Get your computer or device to use the VPN. Please refer to:
